@@ -3,6 +3,7 @@ spring:
     url: jdbc:mysql://localhost:3306/ejf_prod
     username: ejf_prod_user
     password: guru
+    platform: mysql
   jpa:
     hibernate:
       ddl-auto: validate
